@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registeration Form</title>
+	<link rel="stylesheet" href="./../registration/STU.css">
+</head>
+<body>
+	
+	<span class="cont">
+	<h2 align="center">Student Registration Form</h2>
+	<h2 id="line">___________________________________________________________________</h2>
+	<form id="Registeration">
+	First Name:<br><input type="text" id="name" placeholder="First Name" required/><br>
+	<br>
+	Middle Name:<br><input type="text" id="name" placeholder="Middle Name"/><br>
+	<br>
+	Last Name:<br><input type="text" id="name" placeholder="Last Name"required/><br>
+	<br>
+	Course:<select class="inp" name="courses">
+		<option value="">PYTHON</option>
+		<option value="">JAVA</option>
+		<option value="">HTML</option>
+		<option value="">MATH</option>
+	</select><br><br>
+	<div class="gender">
+	Gender:<br><input type="radio" name="gender" value="male">Male
+	<input type="radio" name="gender" value="female">Female
+	<input type="radio" name="gender" value="others">Others
+	</div>
+	<br><br>
+	Phone:<br><input type="tel" class="inp" name="code" value="+91"><br>
+	<input type="tel" class="inp" name="Number" value="phone no."><br><br>
+	Current Address:<br><textarea rows="6" style="width:60%" placeholder="Adress"></textarea><br>
+	<br>
+	Email:<br><input type="Email" id="Email" placeholder="Email"><br>
+	<br>
+	Password:<br><input type="password" class="inp" name="password" value="" pattern="[a-z^A-Z^0-9]{8}"><br>
+	Re-type Password:<br><input type="password" class="inp" name="password" value="">
+	
+	<br>
+	<input type="submit" id="submit" value="Register"></input>
+	
+	</form>
+	
+	</span>
+	
+</body>
+</html>
